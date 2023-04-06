@@ -4,6 +4,7 @@ using YoutubeExplode.Converter;
 
 namespace YouTubeDownloader
 {
+    // Rонкретная реализация команды "Description"
     class Description
     {
         public async void ShowDescription(string videoURL)

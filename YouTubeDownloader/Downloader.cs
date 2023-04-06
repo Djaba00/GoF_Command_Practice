@@ -4,6 +4,7 @@ using YoutubeExplode.Converter;
 
 namespace YouTubeDownloader
 {
+    // Rонкретная реализация команды "Downloader"
     class Downloader
     {
         public async void DownloadAsync(string videoURL)
