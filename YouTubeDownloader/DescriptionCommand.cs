@@ -2,6 +2,7 @@ using System;
 
 namespace YouTubeDownloader
 {
+    //Получатель (Receiver) команды "Description"
     class DescriptionCommand : ICommand
     {
         Description _description;

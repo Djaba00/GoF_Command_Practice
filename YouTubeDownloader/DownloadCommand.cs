@@ -2,6 +2,7 @@ using System;
 
 namespace YouTubeDownloader
 {
+    // Получатель (Receiver) команды "Downloader"
     class DownloadCommand : ICommand
     {
         Downloader _downloader;

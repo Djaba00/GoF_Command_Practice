@@ -2,6 +2,7 @@ using System;
 
 namespace YouTubeDownloader
 {
+    // Инициализатор команд (Invoker)
     class CommandPanel
     {
         ICommand _command;
